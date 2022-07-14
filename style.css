@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,900&display=swap');
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    width: 640px;
+    margin: 50px auto;
+}
+
+.title{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.blog-img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* breakpoints
+xm (extra small) -> 0px - 575px  small jio phones  // rarely used
+sm (small)       -> 576px        smartphones
+md (medium)      -> 767px        tablets           // rarely used
+lg (large)       -> 992px        laptops
+xl (extra large) -> 1200px       monitors 
+*/
+
+/* max means till tht, min means start from tht */
+
+@media(max-width: 576px){
+    .container{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 28px;
+    }
+}
+
+
+.card{
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
